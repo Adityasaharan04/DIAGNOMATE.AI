@@ -1,0 +1,99 @@
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+
+.navbar {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+
+
+.nav-item {
+  text-align: center; /* Center align the nav items */
+}
+
+
+.nav-item {
+  padding-left: 1rem;
+}
+
+.nav-link {
+  font-size: 15px;
+}
+
+.carousel {
+  margin-bottom: 2rem;
+}
+
+.carousel-item {
+  height: 50rem; /* Adjust the height as needed */
+}
+
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+}
+
+.marketing .col-lg-5 {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.marketing h2 {
+  font-weight: 400;
+}
+
+.marketing .col-lg-5 p {
+  margin: 0 auto;
+  max-width: 80%; /* Adjust as needed */
+}
+
+.rounded-circle {
+  width: 100%; /* Adjust the size as needed */
+  max-width: 250px; /* Set a maximum width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.featurette-divider {
+  margin: 3rem 0; /* Space out the Bootstrap <hr> */
+}
+
+/* Hover effect */
+.featurette-heading:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+/* RESPONSIVE CSS */
+@media (min-width: 768px) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .marketing .col-lg-5 {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60%; /* Adjust as needed */
+  }
+}
+
+@media (min-width: 1200px) {
+  .featurette-heading {
+    margin-top: 3rem;
+  }
+}
